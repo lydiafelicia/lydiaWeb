@@ -8,14 +8,16 @@ body, h1, h2, p, ul, li, div {
 
 nav {
 	margin: 0, auto;
-
 }
+
 #nav_menu_left {
 	list-style: none;
 	float: left;
 	position: relative;
 	margin-top: 50px;
 	margin-left: 30px;
+	margin-right: 150px;
+
 }
 
 #nav_menu_right {
@@ -35,13 +37,62 @@ nav {
 	text-decoration: none;
 	font-size: 14px;
 	font-weight: lighter;
-	padding: 20px;
+	padding: 40px;
+	letter-spacing: 1px;
 }
 
+#nav_menu_left a:hover,#nav_menu_right a:hover {
+	color: #E3D73D;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bolder;
+	padding: 40px;
+	text-shadow: 2px 2px #A39923;
+}
 .logo {
-position: absolute;
-  top: 20%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
+	position: absolute;
+	display: block;
+  	top: 10%;
+  	left: 53%;
+  	margin-top: -50px;
+ 	margin-left: -100px;
+}
+
+#truck {
+	display: inline-block;
+	width: 100%;
+	margin-top: 70px;
+}
+
+.img-center {
+	display:block;
+    margin:auto;
+}
+
+#serving-at {
+	margin-top: 50px;
+	text-align: center;
+}
+
+#serving-at h5 {
+	font-family: Futura;
+	letter-spacing: 4px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+#serving-at p {
+	display: inline-block;
+	color: #E3D73D;
+	font-weight: lighter;
+	letter-spacing: 3px;
+	border-width: 1px;
+	border-style:solid;
+	border-color:#f4f4f4;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: -15px;
+	width: 45%
 }
